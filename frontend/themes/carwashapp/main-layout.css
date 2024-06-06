@@ -1,5 +1,6 @@
 vaadin-scroller[slot="drawer"] {
   padding: var(--lumo-space-s);
+  /*background-color: #0A6AA6;*/
 }
 
 vaadin-side-nav-item vaadin-icon {
@@ -13,6 +14,7 @@ vaadin-side-nav-item vaadin-icon {
   padding: var(--lumo-space-s) var(--lumo-space-m);
   min-height: var(--lumo-size-xl);
   box-sizing: border-box;
+  /*background-color: #0A6AA6;*/
 }
 
 [slot="drawer"]:is(header, footer):is(:empty) {

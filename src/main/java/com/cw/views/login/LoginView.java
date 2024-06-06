@@ -1,6 +1,8 @@
 package com.cw.views.login;
 
 import com.cw.security.AuthenticatedUser;
+import com.vaadin.flow.component.dependency.CssImport;
+import com.vaadin.flow.component.dependency.StyleSheet;
 import com.vaadin.flow.component.login.LoginI18n;
 import com.vaadin.flow.component.login.LoginOverlay;
 import com.vaadin.flow.router.BeforeEnterEvent;
@@ -25,7 +27,7 @@ public class LoginView extends LoginOverlay implements BeforeEnterObserver {
         LoginI18n i18n = LoginI18n.createDefault();
         i18n.setHeader(new LoginI18n.Header());
         i18n.getHeader().setTitle("CarWashApp");
-        i18n.getHeader().setDescription("Login using user/user or admin/admin");
+        //i18n.getHeader().setDescription("Login using user/user or admin/admin");
         i18n.setAdditionalInformation(null);
         setI18n(i18n);
 

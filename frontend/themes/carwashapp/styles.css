@@ -32,3 +32,16 @@
       --lumo-success-text-color: hsl(159, 61%, 40%);
 
     }
+    
+    html{
+        --lumo-primary-color: #1462A6;
+    }
+    /*vaadin-text-field{
+        --vaadin-input-field-background: #BDE3F2;
+        --vaadin-input-field-laberl-color: #1462A6;
+    }
+    vaadin-password-field{
+        --vaadin-input-field-background: #BDE3F2;
+    }*/
+
+
